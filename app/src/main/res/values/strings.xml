@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GithubUserApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_setting">Setting</string>
+
+    <string name="user_name">Name User</string>
+    <string name="user_username">Username</string>
+    <string name="user_company">Company</string>
+    <string name="user_location">location</string>
+    <string name="user_followers">Followers</string>
+    <string name="user_following">Following</string>
+    <string name="user_repository">Repository</string>
+    <string name="number">0</string>
+
+    <string name="splash_image">splash image</string>
+
+    <string name="search_hint">Search…</string>
+    <string name="search">Search</string>
+
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dark_theme">Dark theme</string>
+    <string name="desc_dark_theme"><![CDATA[Reduce glare & improve night viewing]]></string>
+    <string name="add_success">Add To Favorite</string>
+    <string name="delete_success">Delete From Favorite</string>
+    <string name="tag_search">Find Amazing Developer Around You</string>
+</resources>

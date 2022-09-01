@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubUserApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorSurface">@color/dark_blue_grey</item>
+    </style>
+
+    <style name="Theme.GithubUserApp.background" >
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+    <style name="Theme.GithubUserApp.iconLogo">
+        <item name="tint">@color/white</item>
+    </style>
+    <style name="Theme.GithubUserApp.cardView" parent="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardColor</item>
+    </style>
+
+    <style name="Theme.GithubUserApp.tabs" parent="Widget.AppCompat.ActionBar.TabBar">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="tabIndicatorColor">@color/white</item>
+    </style>
+
+    <style name="Theme.GithubUserApp.searchView" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/appbar</item>
+    </style>
+</resources>
